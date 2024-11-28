@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piastri - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Piaa.svg">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-container">
+            <div class="login-content">
+                <img src="img/pisddtri.svg" alt="Piastri Logo" class="logo">
+                <h2>Selamat datang kembali!</h2>
+                <p>Kami sangat antusias dengan kembalinya Anda.</p>
+                
+                <div id="loginForm">
+                    <div class="input-wrapper">
+                        <label for="email">EMAIL ATAU NOMOR TELEPON<span class="asterisk">*</span></label>
+                        <input type="text" id="email" name="email" placeholder="Masukkan email atau nomor telepon" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="password">PASSWORD <span class="asterisk2">*</span></label>
+                        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                        <button class="show-password-btn" type="button">
+                            <svg width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316-.105-.316C21.927 11.617 19.633 5 12 5zm0 11c-2.737 0-4.5-2.272-4.5-5S9.263 6 12 6s4.5 2.272 4.5 5-1.763 5-4.5 5z"></path>
+                                <path fill="currentColor" d="M12 8c-1.178 0-2 .822-2 2s.822 2 2 2 2-.822 2-2-.822-2-2-2z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="forgot-password-btn">Lupa Password?</button>
+                    <button class="login-btn">Log In</button>
+                    <div class="register-link">
+                        Buat Akun Baru? <a href="#" class="register-text">Daftar</a>
+                    </div>
+                </div>
+
+                <div id="forgotPasswordForm" class="hidden">
+                    <h3>Reset Password Anda</h3>
+                    <p>Masukan Email atau Nomor Telepon Anda untuk reset password Anda.</p>
+                    <div class="input-wrapper">
+                        <label for="resetEmail">EMAIL</label>
+                        <input type="email" id="resetEmail" name="resetEmail" placeholder="Masukkan email" required>
+                    </div>
+                    <button class="send-reset-btn">Kirim Reset Tautan</button>
+                    <button class="back-to-login-btn">Kembali ke Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
