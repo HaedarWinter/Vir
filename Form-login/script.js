@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Simulasi penundaan jaringan
             setTimeout(() => {
                 // Contoh logika sederhana (HANYA UNTUK DEMONSTRASI)
-                if (email === 'user@example.com' && password === 'Password123!') {
+                if (email === 'xrplyadika' && password === 'pplg12023') {
                     resolve({
                         success: true, 
                         token: 'dummy_token_' + Math.random().toString(36)
